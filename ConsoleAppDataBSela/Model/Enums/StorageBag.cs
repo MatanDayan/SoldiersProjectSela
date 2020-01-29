@@ -10,8 +10,6 @@ namespace ConsoleAppDataBSela.Model.Enums
     {
         Level1 = 100,
         level2 = 250,
-        level3 = 500
-
-
+        level3 = 500,
     }
 }
