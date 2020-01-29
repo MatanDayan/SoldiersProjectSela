@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDataBSela", "ConsoleAppDataBSela\ConsoleAppDataBSela.csproj", "{D1B84B7B-91A6-4188-9EF7-EC38AF091024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B84B7B-91A6-4188-9EF7-EC38AF091024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B84B7B-91A6-4188-9EF7-EC38AF091024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B84B7B-91A6-4188-9EF7-EC38AF091024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B84B7B-91A6-4188-9EF7-EC38AF091024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6073CC-A2D9-4AF1-9BC4-6708DAAE59CB}
+	EndGlobalSection
+EndGlobal
