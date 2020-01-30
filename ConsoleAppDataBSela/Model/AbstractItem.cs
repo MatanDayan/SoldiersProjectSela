@@ -15,9 +15,5 @@ namespace ConsoleAppDataBSela.Model
         public double Price { get; set; }
         public int CurrentAmout { get; set; }
         public int StarterAmount { get; set; }
-
-
-
-
     }
 }

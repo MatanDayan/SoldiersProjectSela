@@ -63,7 +63,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pictures\" />
+    <Folder Include="Pictures\HatImg\" />
+    <Folder Include="Pictures\WeaponImg\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
