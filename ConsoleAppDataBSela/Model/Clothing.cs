@@ -8,7 +8,7 @@ namespace ConsoleAppDataBSela.Model
 {
     class Clothing : AbstractItem
     {
-        public string color { get; set; } // enum?
+        public string color { get; set; } // enum? add enum with color types
         public int Size { get; set; }
     }
 }
