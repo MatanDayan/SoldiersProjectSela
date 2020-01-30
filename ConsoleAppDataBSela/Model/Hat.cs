@@ -9,6 +9,6 @@ namespace ConsoleAppDataBSela.Model
 {
     class Hat : Clothing
     {
-        public HatType HatType { get; set; }
+        public HatType HatType { get; set; } // enum
     }
 }

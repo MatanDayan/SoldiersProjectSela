@@ -10,7 +10,7 @@ namespace ConsoleAppDataBSela.Model
    public class SecondaryWeapon : Weapon
     {
         public int KnifeLength { get; set; }
-        public KnifeType TypeKnife { get; set; }
+        public KnifeType TypeKnife { get; set; } // enum
         
     }
 }
