@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDataBSela.Model.Enums
 {
-    enum PlayerGender
+    public enum PlayerGender
     {
         Male,
         Female,
