@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleAppDataBSela.Model.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,9 @@ namespace ConsoleAppDataBSela.Model
 
    public class Weapon : AbstractItem
     {
-        public string Coler { get; set; }
+        public ColorType Color { get; set; }
         public string Creator { get; set; } 
-        public int Yaer { get; set; }
+        public int Year { get; set; }
         public int FierPower { get; set; }
         public bool Automatic { get; set; }
 

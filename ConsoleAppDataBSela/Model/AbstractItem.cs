@@ -9,7 +9,7 @@ namespace ConsoleAppDataBSela.Model
 {
     public abstract class AbstractItem
     {
-        public int SerialNumber { get; set; }// id
+        public int SerialNumber { get; set; }// Id
         public string Name { get; set; }
         public string UriImg { get; set; }
         public double Price { get; set; }
