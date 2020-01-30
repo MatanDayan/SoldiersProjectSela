@@ -7,10 +7,8 @@ using ConsoleAppDataBSela.Model.Enums;
 
 namespace ConsoleAppDataBSela.Model
 {
-    class Bag : AbstractItem
+    class Bag : Clothing
     {
         public StorageBag StorageLevel { get; set; } // enum
-        public ColorType Color { get; set; } // enum
-        
     }
 }
