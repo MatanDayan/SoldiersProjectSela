@@ -46,6 +46,7 @@
     <Compile Include="Model\AbstractItem.cs" />
     <Compile Include="Model\Bag.cs" />
     <Compile Include="Model\Clothing.cs" />
+    <Compile Include="Model\Enums\ColorType.cs" />
     <Compile Include="Model\Enums\HatType.cs" />
     <Compile Include="Model\Enums\KnifeType.cs" />
     <Compile Include="Model\Enums\PlayerGender.cs" />

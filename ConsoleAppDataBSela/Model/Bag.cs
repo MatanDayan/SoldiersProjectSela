@@ -9,7 +9,8 @@ namespace ConsoleAppDataBSela.Model
 {
     class Bag : AbstractItem
     {
-        public StorageBag StorageLevel { get; set; }
-        public string Color { get; set; }
+        public StorageBag StorageLevel { get; set; } // enum
+        public ColorType Color { get; set; } // enum
+        
     }
 }
