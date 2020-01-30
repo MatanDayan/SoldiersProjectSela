@@ -7,12 +7,11 @@ using ConsoleAppDataBSela.Model.Enums;
 
 namespace ConsoleAppDataBSela.Model
 {
-    class Player : AbstractItem
+    class Player 
     {
         public Double Height { get; set; }
         public int Age { get; set; }
         public PlayerGender Gender { get; set; } //enum
-Public list<AbstractItem> PlayerItem {get; set;}
-
+        public List<AbstractItem> PlayerItem { get; set; }
     }
 }

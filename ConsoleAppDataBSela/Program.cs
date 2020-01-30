@@ -12,7 +12,7 @@ namespace ConsoleAppDataBSela
         static void Main(string[] args)
         {
             SecondaryWeapon a = new SecondaryWeapon();
-            a.test  = testEnum.
+            
         }
     }
 }
