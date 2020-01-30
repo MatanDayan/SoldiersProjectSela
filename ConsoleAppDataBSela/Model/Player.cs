@@ -12,6 +12,7 @@ namespace ConsoleAppDataBSela.Model
         public Double Height { get; set; }
         public int Age { get; set; }
         public PlayerGender Gender { get; set; } //enum
+Public list<AbstractItem> PlayerItem {get; set;}
 
     }
 }
