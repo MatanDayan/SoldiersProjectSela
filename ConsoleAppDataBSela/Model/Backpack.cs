@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDataBSela.Model
 {
-    class Bag : Clothing
+    class Backpack : Clothing
     {
         public StorageBag StorageLevel { get; set; } // enum
 
@@ -15,8 +15,8 @@ namespace ConsoleAppDataBSela.Model
 
      public enum StorageBag
     {
-        Level1 = 100,
-        level2 = 250,
-        level3 = 500,
+        BackpackLeval1 = 100,
+        BackpackLeval2 = 250,
+        BackpackLeval3 = 500
     }
 }

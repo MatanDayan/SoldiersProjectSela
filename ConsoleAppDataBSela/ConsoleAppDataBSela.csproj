@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\AbstractItem.cs" />
-    <Compile Include="Model\Bag.cs" />
+    <Compile Include="Model\Backpack.cs" />
     <Compile Include="Model\Clothing.cs" />
     <Compile Include="Model\Hat.cs" />
     <Compile Include="Model\Player.cs" />
@@ -59,8 +59,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Pictures\BackpackImg\" />
     <Folder Include="Pictures\HatImg\" />
-    <Folder Include="Pictures\WeaponImg\" />
+    <Folder Include="Pictures\UniformImg\" />
+    <Folder Include="Pictures\WeaponImg\Primary\" />
+    <Folder Include="Pictures\WeaponImg\Secondary\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

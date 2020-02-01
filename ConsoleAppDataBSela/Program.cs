@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
+
 
 namespace ConsoleAppDataBSela
 {
@@ -11,8 +13,9 @@ namespace ConsoleAppDataBSela
     {
         static void Main(string[] args)
         {
-            
-            
+
+
+           
         }
     }
 }
