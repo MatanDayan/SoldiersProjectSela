@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleAppDataBSela.Model.Enums;
 
 namespace ConsoleAppDataBSela.Model
 {
@@ -13,5 +12,13 @@ namespace ConsoleAppDataBSela.Model
         public int Age { get; set; }
         public PlayerGender Gender { get; set; } //enum
         public List<AbstractItem> PlayerItem { get; set; }
+
+    }
+
+
+    public enum PlayerGender
+    {
+        Male,
+        Female
     }
 }

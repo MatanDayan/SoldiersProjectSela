@@ -16,4 +16,14 @@ namespace ConsoleAppDataBSela.Model
         public int CurrentAmout { get; set; }
         public int StarterAmount { get; set; }
     }
+
+
+    public enum ColorType
+    {
+        Red,
+        Blue,
+        Yellow,
+        Black,
+        Green
+    }
 }

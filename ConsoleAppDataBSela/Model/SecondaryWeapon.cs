@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleAppDataBSela.Model.Enums;
 
 namespace ConsoleAppDataBSela.Model
 {
@@ -12,5 +11,11 @@ namespace ConsoleAppDataBSela.Model
         public int KnifeLength { get; set; }
         public KnifeType TypeKnife { get; set; } // enum
         
+    }
+
+    public enum KnifeType
+    {
+        Commando,
+        Leatherman,
     }
 }
