@@ -12,6 +12,14 @@ namespace ConsoleAppDataBSela.Model
         public double ShootingRange { get; set; }
 
 
+        public PrimaryWeapon() // ctor null
+        {
 
+        }
+        public PrimaryWeapon(int amountBalls, double shootingRange)
+        {
+            AmountBalls = amountBalls;
+            ShootingRange = shootingRange;
+        } // ctor
     }
 }

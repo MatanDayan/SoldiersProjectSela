@@ -10,7 +10,16 @@ namespace ConsoleAppDataBSela.Model
     {
         public int KnifeLength { get; set; }
         public KnifeType TypeKnife { get; set; } // enum
-        
+
+        public SecondaryWeapon()
+        {
+
+        }// ctor null
+        public SecondaryWeapon(int knifeLength, KnifeType typeKnife)
+        {
+            KnifeLength = knifeLength;
+            TypeKnife = typeKnife;
+        } // ctor
     }
 
     public enum KnifeType

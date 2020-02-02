@@ -7,14 +7,30 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace ConsoleAppDataBSela.Model
 {
-    public abstract class AbstractItem
+    public abstract class AbstractItem 
     {
+
         public int SerialNumber { get; set; }// Id
         public string Name { get; set; }
         public string UriImg { get; set; }
         public double Price { get; set; }
         public int CurrentAmout { get; set; }
         public int StarterAmount { get; set; }
+
+        public AbstractItem()
+        {
+
+        } // ctor null
+        public AbstractItem(int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
+        {
+            SerialNumber = serialNumber;
+            Name = name;
+            UriImg = uriImg;
+            Price = price;
+            CurrentAmout = currentAmout;
+            StarterAmount = starterAmount;
+        } // ctor null
+
     }
 
 

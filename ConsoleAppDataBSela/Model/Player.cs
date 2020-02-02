@@ -7,14 +7,29 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDataBSela.Model
 {
-    class Player 
+    class Player
     {
+
         public Double Height { get; set; }
         public int Age { get; set; }
         public PlayerGender Gender { get; set; } //enum
         public List<AbstractItem> PlayerItem { get; set; }
 
+        public Player()
+        {
+
+        } // ctor null
+        public Player(double height, int age, PlayerGender gender, List<AbstractItem> playerItem)
+        {
+            Height = height;
+            Age = age;
+            Gender = gender;
+            PlayerItem = playerItem;
+        } // ctor
+
     }
+
+
 
 
     public enum PlayerGender

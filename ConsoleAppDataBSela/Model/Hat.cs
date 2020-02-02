@@ -8,8 +8,17 @@ namespace ConsoleAppDataBSela.Model
 {
     class Hat : Clothing
     {
+
         public HatType HatType { get; set; } // enum
 
+        public Hat()// ctor null
+        {
+
+        }
+        public Hat(HatType hatType)
+        {
+            HatType = hatType;
+        } // ctor 
     }
 
 

@@ -10,6 +10,14 @@ namespace ConsoleAppDataBSela.Model
     {
         public StorageBag StorageLevel { get; set; } // enum
 
+        public Backpack() // ctor null
+        {
+        }
+        public Backpack(StorageBag storageLevel)
+        {
+            StorageLevel = storageLevel;
+        } // ctor
+
     }
 
 
