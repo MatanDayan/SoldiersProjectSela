@@ -58,12 +58,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Pictures\BackpackImg\" />
-    <Folder Include="Pictures\HatImg\" />
-    <Folder Include="Pictures\UniformImg\" />
-    <Folder Include="Pictures\WeaponImg\Primary\" />
-    <Folder Include="Pictures\WeaponImg\Secondary\" />
+    <Content Include="Pictures\BackpackImg\BackpackLeval1.png" />
+    <Content Include="Pictures\BackpackImg\BackpackLeval2.png" />
+    <Content Include="Pictures\BackpackImg\BackpackLeval3.png" />
+    <Content Include="Pictures\HatImg\hat1.png" />
+    <Content Include="Pictures\HatImg\hat2.png" />
+    <Content Include="Pictures\HatImg\hat3.png" />
+    <Content Include="Pictures\HatImg\SantaHat.png" />
+    <Content Include="Pictures\UniformImg\ArmyUniform.jpg" />
+    <Content Include="Pictures\WeaponImg\Primary\awm.png" />
+    <Content Include="Pictures\WeaponImg\Primary\M16Pink.png" />
+    <Content Include="Pictures\WeaponImg\Primary\M4.png" />
+    <Content Include="Pictures\WeaponImg\Primary\UMP9.png" />
+    <Content Include="Pictures\WeaponImg\Secondary\knife1.png" />
+    <Content Include="Pictures\WeaponImg\Secondary\knife2.png" />
+    <Content Include="Pictures\WeaponImg\Secondary\knife3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
