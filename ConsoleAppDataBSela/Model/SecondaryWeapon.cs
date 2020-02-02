@@ -12,7 +12,7 @@ namespace ConsoleAppDataBSela.Model
         public KnifeType TypeKnife { get; set; } // enum
 
         
-        public SecondaryWeapon(int knifeLength, KnifeType typeKnife, ColorType color, string creator, int year, int firePower, bool automatic, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
+        public SecondaryWeapon(int knifeLength, KnifeType typeKnife, ColorType color, string creator, int year, int firePower, bool automatic, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount) 
             : base(color, creator, year, firePower, automatic, serialNumber, name, uriImg, price, currentAmout, starterAmount)
         {
             KnifeLength = knifeLength;

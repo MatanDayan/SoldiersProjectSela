@@ -9,7 +9,7 @@ namespace ConsoleAppDataBSela.Model
 {
     public class Player
     {
-
+        public string Name { get; set; }
         public Double Height { get; set; }
         public int Age { get; set; }
         public PlayerGender Gender { get; set; } //enum
@@ -19,8 +19,9 @@ namespace ConsoleAppDataBSela.Model
         {
 
         }
-        public Player(double height, int age, PlayerGender gender)
+        public Player(string name , double height, int age, PlayerGender gender)
         {
+            Name = name;
             Height = height;
             Age = age;
             Gender = gender;

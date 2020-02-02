@@ -11,7 +11,7 @@ namespace ConsoleAppDataBSela.Model
     {
 
         public int SerialNumber { get; set; }// Id
-        public string Name { get; set; }
+        public string Name { get; set; } // null
         public string UriImg { get; set; }
         public double Price { get; set; }
         public int CurrentAmout { get; set; }

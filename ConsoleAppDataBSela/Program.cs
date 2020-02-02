@@ -16,30 +16,37 @@ namespace ConsoleAppDataBSela
             List<Player> players = new List<Player>();
             List<AbstractItem> items = new List<AbstractItem>();
 
-            Player p = new Player(27, 23, PlayerGender.Male);
 
-            players.Add(p);
+            // user
+            Player player1 = new Player("Matan",1.80, 23, PlayerGender.Male);
+            Player player2 = new Player("Agam",2.10, 27, PlayerGender.Female);
+            Player player3 = new Player("Anztasia",1.56, 14, PlayerGender.Female);
+            players.Add(player1);
+            players.Add(player2);
+            players.Add(player3);
 
-
-
-
+            //items = to plaers
             AbstractItem item1 = new Backpack(StorageBag.BackpackLeval3, ColorType.Green, 34,
                 34, "34", "pictures/Backpacing/BackpackLeval3.png",
                 387, 10, 0);
 
+            AbstractItem item2 = new SecondaryWeapon(12, KnifeType.Leatherman, ColorType.Green, "Or", 1475, 78, true, 49029,
+                "Gclass", "Pictures/WeaponImg/knife1.png",250,100,99);
+
+
+
+            // add itmes to itmes list
             items.Add(item1);
-            items.Add(item1);
-            items.Add(item1);
-            items.Add(item1);
-            items.Add(item1);
-            items.Add(item1);
-            items.Add(item1);
+            items.Add(item2);
+            items.Add(item3);
+            items.Add(item4);
+            items.Add(item5);
 
 
 
 
-
-            p.AddItem(item1);
+            // add itmes to Player
+            player1.AddItem(item1);
 
             JsonData.SaveDataItems(items);
             JsonData.SaveDataUsers(players);
