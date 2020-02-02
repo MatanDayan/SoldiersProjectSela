@@ -17,10 +17,7 @@ namespace ConsoleAppDataBSela.Model
         public int CurrentAmout { get; set; }
         public int StarterAmount { get; set; }
 
-        public AbstractItem()
-        {
-
-        } // ctor null
+        
         public AbstractItem(int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
         {
             SerialNumber = serialNumber;

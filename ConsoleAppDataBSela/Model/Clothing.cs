@@ -11,11 +11,9 @@ namespace ConsoleAppDataBSela.Model
         public ColorType color { get; set; } // enum
         public int Size { get; set; }
 
-        public Clothing()
-        {
 
-        } // ctor null
-        public Clothing(ColorType color, int size)
+        public Clothing(ColorType color, int size, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount) 
+            : base(serialNumber,name,uriImg,price,currentAmout,starterAmount)
         {
             this.color = color;
             Size = size;

@@ -10,11 +10,9 @@ namespace ConsoleAppDataBSela.Model
     {
         public bool Shielding { get; set; }
 
-        public Uniform()//ctor null
-        {
-
-        }
-        public Uniform(bool shielding)
+        
+        public Uniform(bool shielding ,ColorType color, int size, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
+            : base(color,size,serialNumber, name, uriImg, price, currentAmout, starterAmount)
         {
             Shielding = shielding;
         }//ctor

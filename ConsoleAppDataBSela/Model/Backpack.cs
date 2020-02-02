@@ -8,12 +8,13 @@ namespace ConsoleAppDataBSela.Model
 {
     class Backpack : Clothing
     {
+
+
         public StorageBag StorageLevel { get; set; } // enum
 
-        public Backpack() // ctor null
-        {
-        }
-        public Backpack(StorageBag storageLevel)
+
+        public Backpack(StorageBag storageLevel, ColorType color, int size, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
+            : base(color, size, serialNumber, name, uriImg, price, currentAmout, starterAmount)
         {
             StorageLevel = storageLevel;
         } // ctor
@@ -21,7 +22,7 @@ namespace ConsoleAppDataBSela.Model
     }
 
 
-     public enum StorageBag
+    public enum StorageBag
     {
         BackpackLeval1 = 100,
         BackpackLeval2 = 250,

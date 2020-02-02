@@ -11,14 +11,12 @@ namespace ConsoleAppDataBSela.Model
 
         public HatType HatType { get; set; } // enum
 
-        public Hat()// ctor null
-        {
-
-        }
-        public Hat(HatType hatType)
+        
+        public Hat(HatType hatType , ColorType color, int size, int serialNumber, string name, string uriImg, double price, int currentAmout, int starterAmount)
+            : base(color, size, serialNumber, name, uriImg, price, currentAmout, starterAmount)
         {
             HatType = hatType;
-        } // ctor 
+        } 
     }
 
 
