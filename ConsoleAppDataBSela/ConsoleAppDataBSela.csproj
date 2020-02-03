@@ -46,16 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseConverter.cs" />
     <Compile Include="JsonData.cs" />
     <Compile Include="Model\AbstractItem.cs" />
+    <Compile Include="Model\AbstractItemId.cs" />
     <Compile Include="Model\Backpack.cs" />
     <Compile Include="Model\Clothing.cs" />
     <Compile Include="Model\Hat.cs" />
+    <Compile Include="Model\Enums\HatType.cs" />
+    <Compile Include="Model\Enums\KnifeType.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Enums\PlayerGender.cs" />
     <Compile Include="Model\PrimaryWeapon.cs" />
     <Compile Include="Model\SecondaryWeapon.cs" />
+    <Compile Include="Model\Enums\StorageBag.cs" />
     <Compile Include="Model\Uniform.cs" />
     <Compile Include="Model\Weapon.cs" />
+    <Compile Include="Model\Interfaces\Wearable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

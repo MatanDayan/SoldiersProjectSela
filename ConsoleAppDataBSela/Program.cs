@@ -1,4 +1,5 @@
 ﻿using ConsoleAppDataBSela.Model;
+using ConsoleAppDataBSela.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,10 @@ namespace ConsoleAppDataBSela
             List<Player> players = new List<Player>();
             List<AbstractItem> items = new List<AbstractItem>();
 
+            //List<Player> players = JsonData.LoadDataPlayers().ToList();
+            //List<AbstractItem> items = JsonData.LoadDataItems().ToList();
+
+
 
             // user
             Player player1 = new Player("Matan",1.80, 23, PlayerGender.Male);
@@ -26,7 +31,7 @@ namespace ConsoleAppDataBSela
             players.Add(player3);
 
             //items = to plaers
-            AbstractItem item1 = new Backpack(StorageBag.BackpackLeval3, ColorType.Green, 34,
+            AbstractItem item1 = new Backpack(StorageBag.BackpackLeval3, ColorType.Green,
                 34, "34", "pictures/Backpacing/BackpackLeval3.png",
                 387, 10, 0);
 
@@ -38,15 +43,14 @@ namespace ConsoleAppDataBSela
             // add itmes to itmes list
             items.Add(item1);
             items.Add(item2);
-            items.Add(item3);
-            items.Add(item4);
-            items.Add(item5);
 
 
 
 
             // add itmes to Player
             player1.AddItem(item1);
+            player1.AddItem(item2);
+
 
             JsonData.SaveDataItems(items);
             JsonData.SaveDataUsers(players);

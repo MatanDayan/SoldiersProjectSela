@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleAppDataBSela.Model.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,6 @@ namespace ConsoleAppDataBSela.Model
         public PlayerGender Gender { get; set; } //enum
         public List<AbstractItem> PlayerItems { get; set; }
 
-        public Player()
-        {
-
-        }
         public Player(string name , double height, int age, PlayerGender gender)
         {
             Name = name;
@@ -27,20 +24,9 @@ namespace ConsoleAppDataBSela.Model
             Gender = gender;
             PlayerItems = new List<AbstractItem>();
         } 
-
         public void AddItem(AbstractItem item)
         {
             PlayerItems.Add(item);
         }
-
-    }
-
-
-
-
-    public enum PlayerGender
-    {
-        Male,
-        Female
     }
 }
